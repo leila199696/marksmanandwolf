@@ -1639,6 +1639,21 @@ section:last-child,
 	width: 100%;
 }
 
+.bordered-feature-image-small {
+	display: block;
+	background: #fff url("images/bg04.png");
+	padding: 10px;
+	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+	margin: 0 0 1.5em 0;
+	outline: 0;
+	width: 30%;
+}
+
+.bordered-feature-image-small img {
+	display: block;
+	width: 100%;
+}
+
 .button-large {
 	background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
 	background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
@@ -2194,6 +2209,10 @@ section:last-child,
 
 	#copyright {
 		padding: 20px 30px;
+	}
+
+	.bordered-feature-image-small {
+		width: 100%;
 	}
 
 }
