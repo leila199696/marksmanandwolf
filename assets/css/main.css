@@ -134,6 +134,12 @@ section {
 	font-size: 0.75em;
 }
 
+.nav-link {
+	background: #fff;
+	padding: 40px 30px 45px 30px;
+	box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
+}
+
 body {
 	line-height: 1;
 }
@@ -185,6 +191,14 @@ ul {
 
 .ul-hyphen-type {
 	list-style-type: "-";
+}
+
+.ul-arabic-type {
+	list-style-type: upper-arabic;
+}
+
+.ul-lower-latin-type {
+	list-style-type: lower-latin;
 }
 
 .ul-hyphen-type li {
