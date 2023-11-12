@@ -2096,7 +2096,8 @@ section:last-child,
 	}
 
 	#titleBar .title img {
-		width: 100px;
+		width: 145px;
+		margin-top: -18px;
 	}
 
 	#titleBar .toggle {
