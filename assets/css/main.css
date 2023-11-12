@@ -1662,6 +1662,17 @@ section:last-child,
 	width: 100%;
 }
 
+.feature-image-logo {
+	display: block;
+	margin: auto auto auto 21.5%;
+	width: 60%;
+}
+
+.feature-image-logo img {
+	display: block;
+	width: 100%;
+}
+
 .button-large {
 	background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
 	background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
