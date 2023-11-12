@@ -1960,7 +1960,11 @@ section:last-child,
 	}
 
 	#header nav a {
-		font-size: 1.1em;
+		font-size: 0.8em;
+	}
+
+	#header nav {
+		right: 10%;
 	}
 
 	/* Content */
