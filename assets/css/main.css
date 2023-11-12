@@ -110,6 +110,10 @@ section {
 	display: block;
 }
 
+.row-index {
+    margin-top: -5%;
+}
+
 .logo {
 	width: 15%;
 	display: block;
@@ -117,14 +121,16 @@ section {
 
 .logo-social-div {
 	text-align: right;
-}
-
-.logo-social {
 	width: 3%;
 }
 
-.logo-social-twitter {
-	margin: auto auto auto 5px;
+.logo-social {
+	width: 15%;
+}
+
+.logo-social-linkedin {
+	margin: auto auto auto 10px;
+	width: 3%;
 }
 
 .logo-only {
@@ -287,11 +293,14 @@ select {
 	font-weight: 300;
 }
 
-ul,
 ol,
 p,
 dl {
 	margin: 0 0 2em 0;
+}
+
+ul {
+	margin: 0;
 }
 
 a {
@@ -347,7 +356,7 @@ section:last-child,
 	}
 
 	.logo-social {
-		width: 5%;
+		width: 15%;
 	}
 
 }
@@ -1689,17 +1698,18 @@ section:last-child,
 	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 	margin: 0 0 1.5em 0;
 	outline: 0;
-	width: 30%;
+	width: fit-content;
 }
 
 .bordered-feature-image-small img {
 	display: block;
-	width: 100%;
+	width: auto;
+	height: 30vh;
 }
 
 .feature-image-logo {
 	display: block;
-	margin: auto auto auto 21.5%;
+	margin: -7% auto auto 40%;
 	width: 60%;
 }
 
@@ -1750,10 +1760,9 @@ section:last-child,
 
 #header {
 	position: relative;
-	background: #3B4346 url("images/bg01.jpg");
+	background: white;
 	border-bottom: solid 1px #272d30;
 	box-shadow: inset 0px -1px 0px 0px #51575a;
-	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 }
 
 #header>.container {
@@ -1785,15 +1794,16 @@ section:last-child,
 }
 
 #header nav a {
-	color: #c6c8c8;
+	color: black;
 	text-decoration: none;
 	font-size: 1.3em;
 	margin-left: 60px;
 	outline: 0;
+	font-weight: 300;
 }
 
 #header nav a:hover {
-	color: #f6f8f8;
+	color: rgba(0, 0, 0, 0.512);
 }
 
 .subpage #header>.container {
@@ -2082,7 +2092,7 @@ section:last-child,
 		width: 100%;
 		z-index: 10001;
 		color: #fff;
-		background: url("images/bg04.jpg");
+		background: white;
 		box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 	}
@@ -2115,9 +2125,6 @@ section:last-child,
 		top: 18px;
 		left: 6px;
 		color: #fff;
-		background: rgba(255, 255, 255, 0.025);
-		box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05), inset 0px -8px 10px 0px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
-		text-shadow: -1px -1px 1px black;
 		width: 49px;
 		height: 31px;
 		border-radius: 8px;
