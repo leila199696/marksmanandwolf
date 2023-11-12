@@ -115,6 +115,10 @@ section {
 	display: block;
 }
 
+.logo-social {
+	width: 15%;
+}
+
 .logo-only {
     display: none;
     margin-left: auto;
@@ -328,6 +332,10 @@ section:last-child,
 
 	.logo {
 		display: none;
+	}
+
+	.logo-social {
+		width: 5%;
 	}
 
 }
