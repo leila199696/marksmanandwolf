@@ -112,6 +112,13 @@ section {
 
 .logo {
 	width: 15%;
+	display: block;
+}
+
+.logo-only {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bold-text {
@@ -313,6 +320,14 @@ section:last-child,
 
 	.container {
 		width: calc(100% - 50px);
+	}
+
+	.logo-only {
+		display: block;
+	}
+
+	.logo {
+		display: none;
 	}
 
 }
