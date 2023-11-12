@@ -115,8 +115,16 @@ section {
 	display: block;
 }
 
+.logo-social-div {
+	text-align: right;
+}
+
 .logo-social {
-	width: 15%;
+	width: 3%;
+}
+
+.logo-social-twitter {
+	margin: auto auto auto 5px;
 }
 
 .logo-only {
@@ -1864,7 +1872,7 @@ section:last-child,
 }
 
 #content a {
-	color: #ED391B;
+	color: #7a858b;
 }
 
 #content header {
@@ -1987,7 +1995,7 @@ section:last-child,
 	}
 
 	#header nav a {
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 
 	#header nav {
@@ -2408,11 +2416,11 @@ section:last-child,
 }
 
 .carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%7a858b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
 }
 
 .carousel-control-next-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%7a858b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
 .carousel-indicators {
