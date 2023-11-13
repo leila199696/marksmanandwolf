@@ -1721,8 +1721,22 @@ section:last-child,
 
 .feature-image-logo {
 	display: block;
-	margin: -3% auto auto 53%;
-	width: 30%;
+	margin: -7% auto 0px 39%;
+	width: 60%;
+}
+
+.index-h2 {
+	font-size: 1.2em !important;
+	line-height: 1.2rem;
+}
+
+.top-margin{
+	margin-top: 2%;
+}
+
+.index-h3 {
+	font-size: 0.9em !important;
+	line-height: 1.2rem;
 }
 
 .feature-image-logo img {
