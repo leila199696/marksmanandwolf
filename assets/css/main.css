@@ -130,7 +130,15 @@ section {
 
 .logo-social-linkedin {
 	margin: auto auto auto 10px;
-	width: 3%;
+}
+
+.flex-display {
+	display:flex;
+}
+
+.logo-social-linkedin-a {
+	display: block;
+    margin-top: 2px;
 }
 
 .logo-only {
@@ -2286,7 +2294,7 @@ section:last-child,
 	}
 
 	.bordered-feature-image-small {
-		width: 100%;
+		width: fit-content;
 	}
 
 }
