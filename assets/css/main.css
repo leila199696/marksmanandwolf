@@ -1606,6 +1606,10 @@ section:last-child,
 		padding-top: 40px;
 	}
 
+	.feature-image-logo {
+		margin: -7% auto auto 40% !important;
+		width: 60% !important;
+	}
 }
 
 /* Multi-use */
@@ -1717,8 +1721,8 @@ section:last-child,
 
 .feature-image-logo {
 	display: block;
-	margin: -7% auto auto 40%;
-	width: 60%;
+	margin: -3% auto auto 53%;
+	width: 30%;
 }
 
 .feature-image-logo img {
